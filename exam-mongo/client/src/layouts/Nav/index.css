@@ -1,0 +1,44 @@
+nav {
+    background-color: #003366;
+    padding: 10px 20px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0 15px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  a.active {
+    color: #ff9900;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #ff9900;
+  }
+  
+  @media (max-width: 768px) {
+    ul {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    li {
+      margin: 10px 0;
+    }
+  }
+  
