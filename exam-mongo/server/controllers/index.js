@@ -2,6 +2,7 @@ const blogModel = require("../models/index")
 
 const getAllBlogs = async(req, res)=>{
     const blogs = await blogModel.find()
+    res.send(blogs)
 }
 
 const getBlogById = async(req, res)=>{
