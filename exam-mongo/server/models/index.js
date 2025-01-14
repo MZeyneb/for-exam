@@ -1,12 +1,11 @@
 const mongoose = require('mongoose');
 
-app.use(express.json())
-
+const { Schema } = mongoose;
 const blogSchema = new Schema({
-    image: string,
+    image: String,
     country: String,
     title: String,
-    description: string
+    description: String
   });
 
 const blogModel = mongoose.model("blogs", blogSchema)
