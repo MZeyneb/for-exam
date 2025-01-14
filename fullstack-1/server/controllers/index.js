@@ -9,17 +9,17 @@ const getAllData= async (req, res) => {
 
 const getProductById = async(req, res)=>{
     const id = req.params.id
-    const product = await modelProduct.findById(id)
+    const product = await modelWine.findById(id)
 }
 
 const deleteProduct =  async (req, res) => {
     const id = req.params.id
-    const deleted = modelProduct.findByIdAndDelete(id)
+    const deleted = modelWine.findByIdAndDelete(id)
 
 }
 
 const post =  async (req, res) => {
-    const newProduct = modelProduct({ ...req.body });
+    const newProduct = modelWine({ ...req.body });
     await newProduct.save();
 
 }   

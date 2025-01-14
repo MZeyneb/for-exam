@@ -1,0 +1,27 @@
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        li{
+
+            a{
+                font-size: 16px;
+                color: rgb(65, 65, 65);
+                font-weight: 200;
+            }
+        }
+    }
+}

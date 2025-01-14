@@ -1,0 +1,19 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+    align-items: center;
+    h1{
+        position: absolute;
+        font-size: 75px;
+        color: white;
+    }
+    p{
+        position: absolute;
+        font-size: 20px;
+        top: 280px;
+        color: white;
+    }
+}
